@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        
+        <h1>To Do List</h1>
+        <form action="">
+            <div>
+                <input type="text" id="newTask" placeholder="Add New Task">
+                <button type="button" class="add">Add</button>
+            </div>
+            <input type="search" id="searchTask" placeholder="Search Tasks">
+
+        </form>
+
+        <div class="scrollTasks">
+            <table id="tabletask">
+                <thead id="theadd"> 
+                    <tr>
+                        <th>ID</th>
+                        <th>TODO Description</th>
+                        <th>User ID</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="bodyTable">
+                  
+                       
+                       
+
+                  
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5">Total Tasks : <span id="counter"></span> </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+
+    </main>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
